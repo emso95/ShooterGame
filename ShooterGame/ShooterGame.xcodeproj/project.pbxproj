@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B046EBC82231A717001253AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EBC72231A717001253AD /* AppDelegate.swift */; };
-		B046EBCA2231A717001253AD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B046EBC92231A717001253AD /* GameScene.sks */; };
 		B046EBCC2231A717001253AD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B046EBCB2231A717001253AD /* Actions.sks */; };
 		B046EBCE2231A717001253AD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EBCD2231A717001253AD /* GameScene.swift */; };
 		B046EBD02231A717001253AD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EBCF2231A717001253AD /* GameViewController.swift */; };
@@ -17,6 +16,9 @@
 		B046EBD82231A719001253AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B046EBD62231A719001253AD /* LaunchScreen.storyboard */; };
 		B046EBE32231A719001253AD /* ShooterGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EBE22231A719001253AD /* ShooterGameTests.swift */; };
 		B046EBEE2231A719001253AD /* ShooterGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EBED2231A719001253AD /* ShooterGameUITests.swift */; };
+		B046EBFE2231B2BD001253AD /* object.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B046EBFB2231B2BD001253AD /* object.atlas */; };
+		B046EBFF2231B2BD001253AD /* Stall.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B046EBFC2231B2BD001253AD /* Stall.atlas */; };
+		B046EC002231B2BD001253AD /* HUD.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B046EBFD2231B2BD001253AD /* HUD.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 /* Begin PBXFileReference section */
 		B046EBC42231A717001253AD /* ShooterGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShooterGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B046EBC72231A717001253AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B046EBC92231A717001253AD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		B046EBCB2231A717001253AD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		B046EBCD2231A717001253AD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B046EBCF2231A717001253AD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +54,9 @@
 		B046EBE92231A719001253AD /* ShooterGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShooterGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B046EBED2231A719001253AD /* ShooterGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShooterGameUITests.swift; sourceTree = "<group>"; };
 		B046EBEF2231A719001253AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B046EBFB2231B2BD001253AD /* object.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = object.atlas; sourceTree = "<group>"; };
+		B046EBFC2231B2BD001253AD /* Stall.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Stall.atlas; sourceTree = "<group>"; };
+		B046EBFD2231B2BD001253AD /* HUD.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HUD.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,10 @@
 		B046EBC62231A717001253AD /* ShooterGame */ = {
 			isa = PBXGroup;
 			children = (
+				B046EBFD2231B2BD001253AD /* HUD.atlas */,
+				B046EBFB2231B2BD001253AD /* object.atlas */,
+				B046EBFC2231B2BD001253AD /* Stall.atlas */,
 				B046EBC72231A717001253AD /* AppDelegate.swift */,
-				B046EBC92231A717001253AD /* GameScene.sks */,
 				B046EBCB2231A717001253AD /* Actions.sks */,
 				B046EBCD2231A717001253AD /* GameScene.swift */,
 				B046EBCF2231A717001253AD /* GameViewController.swift */,
@@ -239,9 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B046EBD32231A717001253AD /* Main.storyboard in Resources */,
-				B046EBCA2231A717001253AD /* GameScene.sks in Resources */,
 				B046EBD52231A719001253AD /* Assets.xcassets in Resources */,
 				B046EBD82231A719001253AD /* LaunchScreen.storyboard in Resources */,
+				B046EBFE2231B2BD001253AD /* object.atlas in Resources */,
+				B046EC002231B2BD001253AD /* HUD.atlas in Resources */,
+				B046EBFF2231B2BD001253AD /* Stall.atlas in Resources */,
 				B046EBCC2231A717001253AD /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7N8JKDK68;
 				INFOPLIST_FILE = ShooterGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7N8JKDK68;
 				INFOPLIST_FILE = ShooterGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
