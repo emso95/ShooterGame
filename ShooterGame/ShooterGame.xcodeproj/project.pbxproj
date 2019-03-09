@@ -19,6 +19,8 @@
 		B046EBFE2231B2BD001253AD /* object.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B046EBFB2231B2BD001253AD /* object.atlas */; };
 		B046EBFF2231B2BD001253AD /* Stall.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B046EBFC2231B2BD001253AD /* Stall.atlas */; };
 		B046EC002231B2BD001253AD /* HUD.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B046EBFD2231B2BD001253AD /* HUD.atlas */; };
+		B046EC0422334115001253AD /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EC0322334115001253AD /* Duck.swift */; };
+		B046EC0622336325001253AD /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EC0522336325001253AD /* Target.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		B046EBFB2231B2BD001253AD /* object.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = object.atlas; sourceTree = "<group>"; };
 		B046EBFC2231B2BD001253AD /* Stall.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Stall.atlas; sourceTree = "<group>"; };
 		B046EBFD2231B2BD001253AD /* HUD.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HUD.atlas; sourceTree = "<group>"; };
+		B046EC0322334115001253AD /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		B046EC0522336325001253AD /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				B046EBD42231A719001253AD /* Assets.xcassets */,
 				B046EBD62231A719001253AD /* LaunchScreen.storyboard */,
 				B046EBD92231A719001253AD /* Info.plist */,
+				B046EC0322334115001253AD /* Duck.swift */,
+				B046EC0522336325001253AD /* Target.swift */,
 			);
 			path = ShooterGame;
 			sourceTree = "<group>";
@@ -275,9 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B046EC0422334115001253AD /* Duck.swift in Sources */,
 				B046EBCE2231A717001253AD /* GameScene.swift in Sources */,
 				B046EBD02231A717001253AD /* GameViewController.swift in Sources */,
 				B046EBC82231A717001253AD /* AppDelegate.swift in Sources */,
+				B046EC0622336325001253AD /* Target.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
