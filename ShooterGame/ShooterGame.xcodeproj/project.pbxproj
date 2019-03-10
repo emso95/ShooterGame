@@ -21,6 +21,7 @@
 		B046EC002231B2BD001253AD /* HUD.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B046EBFD2231B2BD001253AD /* HUD.atlas */; };
 		B046EC0422334115001253AD /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EC0322334115001253AD /* Duck.swift */; };
 		B046EC0622336325001253AD /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EC0522336325001253AD /* Target.swift */; };
+		B046EC0822346EB2001253AD /* GameSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046EC0722346EB2001253AD /* GameSprite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B046EBFD2231B2BD001253AD /* HUD.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HUD.atlas; sourceTree = "<group>"; };
 		B046EC0322334115001253AD /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 		B046EC0522336325001253AD /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		B046EC0722346EB2001253AD /* GameSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSprite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,16 +116,17 @@
 				B046EBFD2231B2BD001253AD /* HUD.atlas */,
 				B046EBFB2231B2BD001253AD /* object.atlas */,
 				B046EBFC2231B2BD001253AD /* Stall.atlas */,
-				B046EBC72231A717001253AD /* AppDelegate.swift */,
+				B046EBD92231A719001253AD /* Info.plist */,
 				B046EBCB2231A717001253AD /* Actions.sks */,
+				B046EBC72231A717001253AD /* AppDelegate.swift */,
+				B046EC0322334115001253AD /* Duck.swift */,
 				B046EBCD2231A717001253AD /* GameScene.swift */,
+				B046EC0722346EB2001253AD /* GameSprite.swift */,
 				B046EBCF2231A717001253AD /* GameViewController.swift */,
-				B046EBD12231A717001253AD /* Main.storyboard */,
+				B046EC0522336325001253AD /* Target.swift */,
 				B046EBD42231A719001253AD /* Assets.xcassets */,
 				B046EBD62231A719001253AD /* LaunchScreen.storyboard */,
-				B046EBD92231A719001253AD /* Info.plist */,
-				B046EC0322334115001253AD /* Duck.swift */,
-				B046EC0522336325001253AD /* Target.swift */,
+				B046EBD12231A717001253AD /* Main.storyboard */,
 			);
 			path = ShooterGame;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				B046EC0422334115001253AD /* Duck.swift in Sources */,
 				B046EBCE2231A717001253AD /* GameScene.swift in Sources */,
+				B046EC0822346EB2001253AD /* GameSprite.swift in Sources */,
 				B046EBD02231A717001253AD /* GameViewController.swift in Sources */,
 				B046EBC82231A717001253AD /* AppDelegate.swift in Sources */,
 				B046EC0622336325001253AD /* Target.swift in Sources */,

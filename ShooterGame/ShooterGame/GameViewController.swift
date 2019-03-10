@@ -9,6 +9,7 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import AVFoundation
 
 class GameViewController: UIViewController {
 
@@ -26,6 +27,8 @@ class GameViewController: UIViewController {
         scene.size = view.bounds.size
         // Show the new scene:
         skView.presentScene(scene)
+        
+
     }
 
     override var shouldAutorotate: Bool {
